@@ -11,4 +11,14 @@ void main() {
       expect(day.part2(), 196804);
     });
   });
+
+  group('Day02', () {
+    final day = Day02();
+    test('Part1', () {
+      expect(day.part1(), 13005);
+    });
+    test('Part2', () {
+      expect(day.part2(), 11373);
+    });
+  });
 }
