@@ -2,6 +2,7 @@ import 'dart:io';
 import 'dart:math';
 
 part 'day01.dart';
+part 'day02.dart';
 
 abstract class AOC {
   AOC() {
