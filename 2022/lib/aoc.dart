@@ -1,3 +1,4 @@
+import 'dart:collection';
 import 'dart:io';
 import 'dart:math';
 
@@ -5,6 +6,7 @@ part 'day01.dart';
 part 'day02.dart';
 part 'day03.dart';
 part 'day04.dart';
+part 'day05.dart';
 
 abstract class AOC {
   AOC() {
