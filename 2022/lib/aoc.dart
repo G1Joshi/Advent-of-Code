@@ -16,8 +16,8 @@ abstract class AOC {
   late String day;
   late List<String> data;
 
-  int part1();
-  int part2();
+  part1();
+  part2();
 
   void solve() {
     print('\nDay$day');
