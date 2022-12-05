@@ -41,4 +41,14 @@ void main() {
       expect(day.part2(), 905);
     });
   });
+
+  group('Day05', () {
+    final day = Day05();
+    test('Part1', () {
+      expect(day.part1(), "VQZNJMWTR");
+    });
+    test('Part2', () {
+      expect(day.part2(), "NLCDCLVMQ");
+    });
+  });
 }
