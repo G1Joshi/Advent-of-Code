@@ -8,6 +8,7 @@ part 'day03.dart';
 part 'day04.dart';
 part 'day05.dart';
 part 'day06.dart';
+part 'day07.dart';
 
 abstract class AOC {
   AOC() {
