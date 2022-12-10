@@ -91,4 +91,14 @@ void main() {
       expect(day.part2(), 2331);
     });
   });
+
+  group('Day10', () {
+    final day = Day10();
+    test('Part1', () {
+      expect(day.part1(), 13480);
+    });
+    test('Part2', () {
+      expect(day.part2(), "EGJBGCFK");
+    });
+  });
 }
