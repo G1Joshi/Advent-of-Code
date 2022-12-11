@@ -101,4 +101,14 @@ void main() {
       expect(day.part2(), "EGJBGCFK");
     });
   });
+
+  group('Day11', () {
+    final day = Day11();
+    test('Part1', () {
+      expect(day.part1(), 100345);
+    });
+    test('Part2', () {
+      expect(day.part2(), 28537348205);
+    });
+  });
 }
