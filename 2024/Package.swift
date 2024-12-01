@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "AOC",
     platforms: [
-        .macOS(.v13)
+        .macOS(.v13), .iOS(.v16)
     ],
     dependencies: [
         .package(

@@ -7,7 +7,7 @@
 
 import ArgumentParser
 
-nonisolated(unsafe) let allChallenges: [any Day] = []
+let allChallenges: [any Day] = []
 
 @main
 struct AOC: AsyncParsableCommand {

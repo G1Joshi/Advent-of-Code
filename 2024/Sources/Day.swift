@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol Day {
+protocol Day: Sendable {
     associatedtype Answer = Int
 
     static var day: Int { get }
