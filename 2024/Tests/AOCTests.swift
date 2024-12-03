@@ -39,4 +39,19 @@ struct AOCTests {
             #expect(challenge.part2() == 296)
         }
     }
+
+    @Suite("Day03 Tests")
+    struct Day03Tests {
+        @Test("Part 1")
+        func testPart1() async throws {
+            let challenge = Day03()
+            #expect(challenge.part1() == 166357705)
+        }
+
+        @Test("Part 2")
+        func testPart2() async throws {
+            let challenge = Day03()
+            #expect(challenge.part2() == 88811886)
+        }
+    }
 }
