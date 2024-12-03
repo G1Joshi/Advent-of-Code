@@ -10,6 +10,7 @@ import ArgumentParser
 let allChallenges: [any Day] = [
     Day01(),
     Day02(),
+    Day03(),
 ]
 
 @main
