@@ -54,4 +54,19 @@ struct AOCTests {
             #expect(challenge.part2() == 88811886)
         }
     }
+
+    @Suite("Day04 Tests")
+    struct Day04Tests {
+        @Test("Part 1")
+        func testPart1() async throws {
+            let challenge = Day04()
+            #expect(challenge.part1() == 2406)
+        }
+
+        @Test("Part 2")
+        func testPart2() async throws {
+            let challenge = Day04()
+            #expect(challenge.part2() == 1807)
+        }
+    }
 }
