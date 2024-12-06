@@ -14,14 +14,14 @@ struct AOCTests {
     struct Day01Tests {
         @Test("Part 1")
         func testPart1() async throws {
-            let challenge = Day01()
-            #expect(challenge.part1() == 2166959)
+            let day = Day01()
+            #expect(day.part1() == 2166959)
         }
 
         @Test("Part 2")
         func testPart2() async throws {
-            let challenge = Day01()
-            #expect(challenge.part2() == 23741109)
+            let day = Day01()
+            #expect(day.part2() == 23741109)
         }
     }
 
@@ -29,14 +29,14 @@ struct AOCTests {
     struct Day02Tests {
         @Test("Part 1")
         func testPart1() async throws {
-            let challenge = Day02()
-            #expect(challenge.part1() == 220)
+            let day = Day02()
+            #expect(day.part1() == 220)
         }
 
         @Test("Part 2")
         func testPart2() async throws {
-            let challenge = Day02()
-            #expect(challenge.part2() == 296)
+            let day = Day02()
+            #expect(day.part2() == 296)
         }
     }
 
@@ -44,14 +44,14 @@ struct AOCTests {
     struct Day03Tests {
         @Test("Part 1")
         func testPart1() async throws {
-            let challenge = Day03()
-            #expect(challenge.part1() == 166357705)
+            let day = Day03()
+            #expect(day.part1() == 166357705)
         }
 
         @Test("Part 2")
         func testPart2() async throws {
-            let challenge = Day03()
-            #expect(challenge.part2() == 88811886)
+            let day = Day03()
+            #expect(day.part2() == 88811886)
         }
     }
 
@@ -59,14 +59,14 @@ struct AOCTests {
     struct Day04Tests {
         @Test("Part 1")
         func testPart1() async throws {
-            let challenge = Day04()
-            #expect(challenge.part1() == 2406)
+            let day = Day04()
+            #expect(day.part1() == 2406)
         }
 
         @Test("Part 2")
         func testPart2() async throws {
-            let challenge = Day04()
-            #expect(challenge.part2() == 1807)
+            let day = Day04()
+            #expect(day.part2() == 1807)
         }
     }
 
@@ -74,14 +74,14 @@ struct AOCTests {
     struct Day05Tests {
         @Test("Part 1")
         func testPart1() async throws {
-            let challenge = Day05()
-            #expect(challenge.part1() == 0)
+            let day = Day05()
+            #expect(day.part1() == 0)
         }
 
         @Test("Part 2")
         func testPart2() async throws {
-            let challenge = Day05()
-            #expect(challenge.part2() == 0)
+            let day = Day05()
+            #expect(day.part2() == 0)
         }
     }
 }

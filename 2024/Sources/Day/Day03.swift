@@ -2,7 +2,7 @@
 //  Day03.swift
 //  AOC
 //
-//  Created by Jeevan Chandra Joshi on 02/12/24.
+//  Created by Jeevan Chandra Joshi on 03/12/24.
 //
 
 import Foundation
